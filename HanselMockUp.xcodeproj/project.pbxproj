@@ -1,0 +1,589 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ED311C1921196D030013F08C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED311C1821196D030013F08C /* AppDelegate.swift */; };
+		ED311C1B21196D030013F08C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED311C1A21196D030013F08C /* ViewController.swift */; };
+		ED311C1E21196D030013F08C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED311C1C21196D030013F08C /* Main.storyboard */; };
+		ED311C2021196D040013F08C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED311C1F21196D040013F08C /* Assets.xcassets */; };
+		ED311C2321196D040013F08C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED311C2121196D040013F08C /* LaunchScreen.storyboard */; };
+		ED311C2E21196D040013F08C /* HanselMockUpTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED311C2D21196D040013F08C /* HanselMockUpTests.swift */; };
+		ED311C3921196D040013F08C /* HanselMockUpUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED311C3821196D040013F08C /* HanselMockUpUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ED311C2A21196D040013F08C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ED311C0D21196D030013F08C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ED311C1421196D030013F08C;
+			remoteInfo = HanselMockUp;
+		};
+		ED311C3521196D040013F08C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ED311C0D21196D030013F08C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ED311C1421196D030013F08C;
+			remoteInfo = HanselMockUp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		ED311C1521196D030013F08C /* HanselMockUp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HanselMockUp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED311C1821196D030013F08C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		ED311C1A21196D030013F08C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		ED311C1D21196D030013F08C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ED311C1F21196D040013F08C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ED311C2221196D040013F08C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ED311C2421196D040013F08C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED311C2921196D040013F08C /* HanselMockUpTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HanselMockUpTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED311C2D21196D040013F08C /* HanselMockUpTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HanselMockUpTests.swift; sourceTree = "<group>"; };
+		ED311C2F21196D040013F08C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED311C3421196D040013F08C /* HanselMockUpUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HanselMockUpUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED311C3821196D040013F08C /* HanselMockUpUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HanselMockUpUITests.swift; sourceTree = "<group>"; };
+		ED311C3A21196D040013F08C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ED311C1221196D030013F08C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED311C2621196D040013F08C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED311C3121196D040013F08C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ED311C0C21196D030013F08C = {
+			isa = PBXGroup;
+			children = (
+				ED311C1721196D030013F08C /* HanselMockUp */,
+				ED311C2C21196D040013F08C /* HanselMockUpTests */,
+				ED311C3721196D040013F08C /* HanselMockUpUITests */,
+				ED311C1621196D030013F08C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ED311C1621196D030013F08C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ED311C1521196D030013F08C /* HanselMockUp.app */,
+				ED311C2921196D040013F08C /* HanselMockUpTests.xctest */,
+				ED311C3421196D040013F08C /* HanselMockUpUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ED311C1721196D030013F08C /* HanselMockUp */ = {
+			isa = PBXGroup;
+			children = (
+				ED311C1821196D030013F08C /* AppDelegate.swift */,
+				ED311C1A21196D030013F08C /* ViewController.swift */,
+				ED311C1C21196D030013F08C /* Main.storyboard */,
+				ED311C1F21196D040013F08C /* Assets.xcassets */,
+				ED311C2121196D040013F08C /* LaunchScreen.storyboard */,
+				ED311C2421196D040013F08C /* Info.plist */,
+			);
+			path = HanselMockUp;
+			sourceTree = "<group>";
+		};
+		ED311C2C21196D040013F08C /* HanselMockUpTests */ = {
+			isa = PBXGroup;
+			children = (
+				ED311C2D21196D040013F08C /* HanselMockUpTests.swift */,
+				ED311C2F21196D040013F08C /* Info.plist */,
+			);
+			path = HanselMockUpTests;
+			sourceTree = "<group>";
+		};
+		ED311C3721196D040013F08C /* HanselMockUpUITests */ = {
+			isa = PBXGroup;
+			children = (
+				ED311C3821196D040013F08C /* HanselMockUpUITests.swift */,
+				ED311C3A21196D040013F08C /* Info.plist */,
+			);
+			path = HanselMockUpUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ED311C1421196D030013F08C /* HanselMockUp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED311C3D21196D040013F08C /* Build configuration list for PBXNativeTarget "HanselMockUp" */;
+			buildPhases = (
+				ED311C1121196D030013F08C /* Sources */,
+				ED311C1221196D030013F08C /* Frameworks */,
+				ED311C1321196D030013F08C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HanselMockUp;
+			productName = HanselMockUp;
+			productReference = ED311C1521196D030013F08C /* HanselMockUp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ED311C2821196D040013F08C /* HanselMockUpTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED311C4021196D040013F08C /* Build configuration list for PBXNativeTarget "HanselMockUpTests" */;
+			buildPhases = (
+				ED311C2521196D040013F08C /* Sources */,
+				ED311C2621196D040013F08C /* Frameworks */,
+				ED311C2721196D040013F08C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ED311C2B21196D040013F08C /* PBXTargetDependency */,
+			);
+			name = HanselMockUpTests;
+			productName = HanselMockUpTests;
+			productReference = ED311C2921196D040013F08C /* HanselMockUpTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		ED311C3321196D040013F08C /* HanselMockUpUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED311C4321196D040013F08C /* Build configuration list for PBXNativeTarget "HanselMockUpUITests" */;
+			buildPhases = (
+				ED311C3021196D040013F08C /* Sources */,
+				ED311C3121196D040013F08C /* Frameworks */,
+				ED311C3221196D040013F08C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ED311C3621196D040013F08C /* PBXTargetDependency */,
+			);
+			name = HanselMockUpUITests;
+			productName = HanselMockUpUITests;
+			productReference = ED311C3421196D040013F08C /* HanselMockUpUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ED311C0D21196D030013F08C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Naman Kedia";
+				TargetAttributes = {
+					ED311C1421196D030013F08C = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					ED311C2821196D040013F08C = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = ED311C1421196D030013F08C;
+					};
+					ED311C3321196D040013F08C = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = ED311C1421196D030013F08C;
+					};
+				};
+			};
+			buildConfigurationList = ED311C1021196D030013F08C /* Build configuration list for PBXProject "HanselMockUp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ED311C0C21196D030013F08C;
+			productRefGroup = ED311C1621196D030013F08C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ED311C1421196D030013F08C /* HanselMockUp */,
+				ED311C2821196D040013F08C /* HanselMockUpTests */,
+				ED311C3321196D040013F08C /* HanselMockUpUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ED311C1321196D030013F08C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED311C2321196D040013F08C /* LaunchScreen.storyboard in Resources */,
+				ED311C2021196D040013F08C /* Assets.xcassets in Resources */,
+				ED311C1E21196D030013F08C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED311C2721196D040013F08C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED311C3221196D040013F08C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ED311C1121196D030013F08C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED311C1B21196D030013F08C /* ViewController.swift in Sources */,
+				ED311C1921196D030013F08C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED311C2521196D040013F08C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED311C2E21196D040013F08C /* HanselMockUpTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED311C3021196D040013F08C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED311C3921196D040013F08C /* HanselMockUpUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ED311C2B21196D040013F08C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ED311C1421196D030013F08C /* HanselMockUp */;
+			targetProxy = ED311C2A21196D040013F08C /* PBXContainerItemProxy */;
+		};
+		ED311C3621196D040013F08C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ED311C1421196D030013F08C /* HanselMockUp */;
+			targetProxy = ED311C3521196D040013F08C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ED311C1C21196D030013F08C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ED311C1D21196D030013F08C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ED311C2121196D040013F08C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ED311C2221196D040013F08C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ED311C3B21196D040013F08C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		ED311C3C21196D040013F08C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ED311C3E21196D040013F08C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T252EPP745;
+				INFOPLIST_FILE = HanselMockUp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = naman.HanselMockUp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ED311C3F21196D040013F08C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T252EPP745;
+				INFOPLIST_FILE = HanselMockUp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = naman.HanselMockUp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		ED311C4121196D040013F08C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T252EPP745;
+				INFOPLIST_FILE = HanselMockUpTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = naman.HanselMockUpTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HanselMockUp.app/HanselMockUp";
+			};
+			name = Debug;
+		};
+		ED311C4221196D040013F08C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T252EPP745;
+				INFOPLIST_FILE = HanselMockUpTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = naman.HanselMockUpTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HanselMockUp.app/HanselMockUp";
+			};
+			name = Release;
+		};
+		ED311C4421196D040013F08C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T252EPP745;
+				INFOPLIST_FILE = HanselMockUpUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = naman.HanselMockUpUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HanselMockUp;
+			};
+			name = Debug;
+		};
+		ED311C4521196D040013F08C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T252EPP745;
+				INFOPLIST_FILE = HanselMockUpUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = naman.HanselMockUpUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HanselMockUp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ED311C1021196D030013F08C /* Build configuration list for PBXProject "HanselMockUp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED311C3B21196D040013F08C /* Debug */,
+				ED311C3C21196D040013F08C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED311C3D21196D040013F08C /* Build configuration list for PBXNativeTarget "HanselMockUp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED311C3E21196D040013F08C /* Debug */,
+				ED311C3F21196D040013F08C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED311C4021196D040013F08C /* Build configuration list for PBXNativeTarget "HanselMockUpTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED311C4121196D040013F08C /* Debug */,
+				ED311C4221196D040013F08C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED311C4321196D040013F08C /* Build configuration list for PBXNativeTarget "HanselMockUpUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED311C4421196D040013F08C /* Debug */,
+				ED311C4521196D040013F08C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ED311C0D21196D030013F08C /* Project object */;
+}
