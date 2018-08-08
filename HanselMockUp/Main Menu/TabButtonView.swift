@@ -31,7 +31,7 @@ class TabButtonView: UIView {
     }
     
     func setUp() {
-        Bundle.main.loadNibNamed("TabButtonViewInterface", owner: self, options: nil)
+        Bundle.main.loadNibNamed("TabButtonView", owner: self, options: nil)
         addSubview(contentView)
         contentView.frame = self.bounds
         contentView.autoresizingMask = [.flexibleHeight, .flexibleWidth]

@@ -40,20 +40,20 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="Ix1-59-9Nu">
-                                <rect key="frame" x="0.0" y="220" width="375" height="50"/>
+                                <rect key="frame" x="0.0" y="225" width="375" height="51"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="50" id="yqM-bP-dzZ"/>
+                                    <constraint firstAttribute="height" constant="51" id="yqM-bP-dzZ"/>
                                 </constraints>
                             </stackView>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ojC-wM-buh">
-                                <rect key="frame" x="23" y="270" width="328" height="1"/>
+                                <rect key="frame" x="23" y="276" width="328" height="1"/>
                                 <color key="backgroundColor" red="0.92156862745098034" green="0.93333333333333335" blue="0.93725490196078431" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="1" id="c7x-Do-OMq"/>
                                 </constraints>
                             </view>
                             <containerView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7xk-hs-pkb">
-                                <rect key="frame" x="0.0" y="271" width="375" height="396"/>
+                                <rect key="frame" x="0.0" y="277" width="375" height="390"/>
                             </containerView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -70,7 +70,7 @@
                             <constraint firstItem="ojC-wM-buh" firstAttribute="top" secondItem="Ix1-59-9Nu" secondAttribute="bottom" id="cKn-fA-B9V"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Ix1-59-9Nu" secondAttribute="trailing" id="ciR-cv-qGq"/>
                             <constraint firstItem="peL-gx-tFX" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="d9N-d6-gPn"/>
-                            <constraint firstItem="Ix1-59-9Nu" firstAttribute="top" secondItem="peL-gx-tFX" secondAttribute="bottom" constant="30" id="dMS-dh-Db8"/>
+                            <constraint firstItem="Ix1-59-9Nu" firstAttribute="top" secondItem="peL-gx-tFX" secondAttribute="bottom" constant="35" id="dMS-dh-Db8"/>
                             <constraint firstItem="peL-gx-tFX" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="hQp-c2-GjH"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="ojC-wM-buh" secondAttribute="trailing" constant="23.5" id="ivk-aE-QGv"/>
                             <constraint firstItem="ojC-wM-buh" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="kw2-pO-8ki"/>
@@ -80,7 +80,9 @@
                     </view>
                     <connections>
                         <outlet property="containerView" destination="7xk-hs-pkb" id="cVX-vX-MR5"/>
+                        <outlet property="profileImageView" destination="CQA-BF-xIV" id="nfL-dT-KTN"/>
                         <outlet property="tabButtonStackView" destination="Ix1-59-9Nu" id="6DD-vR-dkB"/>
+                        <outlet property="userName" destination="peL-gx-tFX" id="tZP-hB-dZd"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -102,8 +104,8 @@
                                     <constraint firstAttribute="height" constant="35" id="lDW-EL-ENt"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" name="OpenSans-Regular" family="Open Sans" pointSize="13"/>
-                                <inset key="titleEdgeInsets" minX="4" minY="0.0" maxX="0.0" maxY="0.0"/>
-                                <inset key="imageEdgeInsets" minX="-4" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                <inset key="titleEdgeInsets" minX="6" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                <inset key="imageEdgeInsets" minX="-6" minY="1" maxX="0.0" maxY="0.0"/>
                                 <state key="normal" title="ADD PLACE" image="Plus">
                                     <color key="titleColor" red="0.35686274509803922" green="0.78823529411764703" blue="0.70588235294117652" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
@@ -177,10 +179,10 @@
             </objects>
             <point key="canvasLocation" x="845.60000000000002" y="30.584707646176913"/>
         </scene>
-        <!--View Controller-->
+        <!--Favorites View Controller-->
         <scene sceneID="G27-t2-vqT">
             <objects>
-                <viewController storyboardIdentifier="FavoritesVCID" id="iia-8X-cDx" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="FavoritesVCID" id="iia-8X-cDx" customClass="FavoritesViewController" customModule="HanselMockUp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="FpP-Xj-0sy">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="396"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -193,13 +195,13 @@
                                 </constraints>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="No favorites as yet. Let’s find you some places that you would like to visit." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Jes-ms-5Fb">
-                                <rect key="frame" x="47" y="118" width="281" height="63"/>
+                                <rect key="frame" x="47" y="118" width="281" height="74"/>
                                 <fontDescription key="fontDescription" name="OpenSans-Regular" family="Open Sans" pointSize="18"/>
                                 <color key="textColor" red="0.73333333333333328" green="0.77647058823529413" blue="0.80784313725490198" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OcV-Y9-UqO" customClass="HanselButton" customModule="HanselMockUp" customModuleProvider="target">
-                                <rect key="frame" x="135" y="201" width="105" height="35"/>
+                                <rect key="frame" x="135" y="212" width="105" height="35"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="105" id="dP8-4K-QaO"/>
                                     <constraint firstAttribute="height" constant="35" id="wtD-jy-eN7"/>
@@ -226,6 +228,9 @@
                         <viewLayoutGuide key="safeArea" id="Kdn-dx-dGy"/>
                     </view>
                     <size key="freeformSize" width="375" height="396"/>
+                    <connections>
+                        <outlet property="messageLabel" destination="Jes-ms-5Fb" id="bFX-kS-0eI"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4ng-J5-fkn" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -240,7 +245,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="68" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="Re8-rw-w64">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="396"/>
+                                <rect key="frame" x="0.0" y="13" width="375" height="383"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="none" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="FriendsTableViewCellID" id="upe-4q-ALt" customClass="FriendTableViewCell" customModule="HanselMockUp" customModuleProvider="target">
@@ -313,7 +318,7 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
-                            <constraint firstItem="Re8-rw-w64" firstAttribute="top" secondItem="Jkf-dY-ZUQ" secondAttribute="top" id="HoF-fc-I8E"/>
+                            <constraint firstItem="Re8-rw-w64" firstAttribute="top" secondItem="Jkf-dY-ZUQ" secondAttribute="top" constant="13" id="HoF-fc-I8E"/>
                             <constraint firstItem="Re8-rw-w64" firstAttribute="leading" secondItem="Jkf-dY-ZUQ" secondAttribute="leading" id="joC-Td-YtN"/>
                             <constraint firstItem="Jkf-dY-ZUQ" firstAttribute="trailing" secondItem="Re8-rw-w64" secondAttribute="trailing" id="kWh-Fx-fAu"/>
                             <constraint firstItem="Jkf-dY-ZUQ" firstAttribute="bottom" secondItem="Re8-rw-w64" secondAttribute="bottom" id="nuM-A8-aMs"/>

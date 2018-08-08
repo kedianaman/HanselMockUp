@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		ED1F398E211A1DBE000085E3 /* TabButtonViewInterface.xib in Resources */ = {isa = PBXBuildFile; fileRef = ED1F398D211A1DBE000085E3 /* TabButtonViewInterface.xib */; };
+		ED1F398E211A1DBE000085E3 /* TabButtonView.xib in Resources */ = {isa = PBXBuildFile; fileRef = ED1F398D211A1DBE000085E3 /* TabButtonView.xib */; };
 		ED1F3990211A2336000085E3 /* PlacesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED1F398F211A2336000085E3 /* PlacesViewController.swift */; };
 		ED1F3992211A2484000085E3 /* PlacesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED1F3991211A2484000085E3 /* PlacesTableViewCell.swift */; };
 		ED1F3994211A594C000085E3 /* Place.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED1F3993211A594C000085E3 /* Place.swift */; };
@@ -35,6 +35,7 @@
 		ED6D26CC211A993100A61469 /* FriendTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED6D26CB211A993100A61469 /* FriendTableViewCell.swift */; };
 		ED6D26CE211A9BF000A61469 /* HanselFollowButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED6D26CD211A9BF000A61469 /* HanselFollowButton.swift */; };
 		ED6D26D0211B63F300A61469 /* HanselColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED6D26CF211B63F300A61469 /* HanselColors.swift */; };
+		ED6D26D5211B848100A61469 /* FavoritesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED6D26D4211B848100A61469 /* FavoritesViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,7 +56,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		ED1F398D211A1DBE000085E3 /* TabButtonViewInterface.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TabButtonViewInterface.xib; sourceTree = "<group>"; };
+		ED1F398D211A1DBE000085E3 /* TabButtonView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TabButtonView.xib; sourceTree = "<group>"; };
 		ED1F398F211A2336000085E3 /* PlacesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlacesViewController.swift; sourceTree = "<group>"; };
 		ED1F3991211A2484000085E3 /* PlacesTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlacesTableViewCell.swift; sourceTree = "<group>"; };
 		ED1F3993211A594C000085E3 /* Place.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Place.swift; sourceTree = "<group>"; };
@@ -89,6 +90,7 @@
 		ED6D26CB211A993100A61469 /* FriendTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendTableViewCell.swift; sourceTree = "<group>"; };
 		ED6D26CD211A9BF000A61469 /* HanselFollowButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HanselFollowButton.swift; sourceTree = "<group>"; };
 		ED6D26CF211B63F300A61469 /* HanselColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HanselColors.swift; sourceTree = "<group>"; };
+		ED6D26D4211B848100A61469 /* FavoritesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -140,18 +142,13 @@
 			isa = PBXGroup;
 			children = (
 				ED311C1821196D030013F08C /* AppDelegate.swift */,
-				ED311C1A21196D030013F08C /* MainScreenViewController.swift */,
 				ED311C1C21196D030013F08C /* Main.storyboard */,
-				ED1F3991211A2484000085E3 /* PlacesTableViewCell.swift */,
-				ED1F398F211A2336000085E3 /* PlacesViewController.swift */,
-				ED1F3993211A594C000085E3 /* Place.swift */,
-				ED37DADE211A9091005E4CDD /* FriendsViewController.swift */,
-				ED6D26CB211A993100A61469 /* FriendTableViewCell.swift */,
-				ED37DAE0211A90CA005E4CDD /* Friend.swift */,
+				ED6D26D1211B808500A61469 /* Main Menu */,
+				ED6D26D2211B809600A61469 /* Places */,
+				ED6D26D3211B80A600A61469 /* Friends */,
+				ED6D26D6211B848B00A61469 /* Favorites */,
 				ED1F3995211A7FE0000085E3 /* HanselButton.swift */,
 				ED6D26CD211A9BF000A61469 /* HanselFollowButton.swift */,
-				ED1F398D211A1DBE000085E3 /* TabButtonViewInterface.xib */,
-				ED311C5B21197BCB0013F08C /* TabButtonView.swift */,
 				ED6D26CF211B63F300A61469 /* HanselColors.swift */,
 				ED311C1F21196D040013F08C /* Assets.xcassets */,
 				ED311C2121196D040013F08C /* LaunchScreen.storyboard */,
@@ -194,6 +191,44 @@
 				ED311C4621196E9D0013F08C /* OpenSans-SemiBoldItalic.ttf */,
 			);
 			path = Font;
+			sourceTree = "<group>";
+		};
+		ED6D26D1211B808500A61469 /* Main Menu */ = {
+			isa = PBXGroup;
+			children = (
+				ED311C1A21196D030013F08C /* MainScreenViewController.swift */,
+				ED1F398D211A1DBE000085E3 /* TabButtonView.xib */,
+				ED311C5B21197BCB0013F08C /* TabButtonView.swift */,
+			);
+			path = "Main Menu";
+			sourceTree = "<group>";
+		};
+		ED6D26D2211B809600A61469 /* Places */ = {
+			isa = PBXGroup;
+			children = (
+				ED1F3991211A2484000085E3 /* PlacesTableViewCell.swift */,
+				ED1F398F211A2336000085E3 /* PlacesViewController.swift */,
+				ED1F3993211A594C000085E3 /* Place.swift */,
+			);
+			path = Places;
+			sourceTree = "<group>";
+		};
+		ED6D26D3211B80A600A61469 /* Friends */ = {
+			isa = PBXGroup;
+			children = (
+				ED37DADE211A9091005E4CDD /* FriendsViewController.swift */,
+				ED6D26CB211A993100A61469 /* FriendTableViewCell.swift */,
+				ED37DAE0211A90CA005E4CDD /* Friend.swift */,
+			);
+			path = Friends;
+			sourceTree = "<group>";
+		};
+		ED6D26D6211B848B00A61469 /* Favorites */ = {
+			isa = PBXGroup;
+			children = (
+				ED6D26D4211B848100A61469 /* FavoritesViewController.swift */,
+			);
+			path = Favorites;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -300,7 +335,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ED1F398E211A1DBE000085E3 /* TabButtonViewInterface.xib in Resources */,
+				ED1F398E211A1DBE000085E3 /* TabButtonView.xib in Resources */,
 				ED311C2321196D040013F08C /* LaunchScreen.storyboard in Resources */,
 				ED311C5721196EA10013F08C /* OpenSans-Regular.ttf in Resources */,
 				ED311C5421196EA10013F08C /* OpenSans-Italic.ttf in Resources */,
@@ -338,6 +373,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ED6D26D5211B848100A61469 /* FavoritesViewController.swift in Sources */,
 				ED37DADF211A9091005E4CDD /* FriendsViewController.swift in Sources */,
 				ED1F3992211A2484000085E3 /* PlacesTableViewCell.swift in Sources */,
 				ED1F3990211A2336000085E3 /* PlacesViewController.swift in Sources */,

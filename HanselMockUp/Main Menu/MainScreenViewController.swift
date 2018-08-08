@@ -12,6 +12,8 @@ class MainScreenViewController: UIViewController, TabButtonViewDelgate {
     
     @IBOutlet weak var containerView: UIView!
     @IBOutlet weak var tabButtonStackView: UIStackView!
+    @IBOutlet weak var profileImageView: UIImageView!
+    @IBOutlet weak var userName: UILabel!
     
     let containerViewControllerIDs = ["PlacesVCID", "FavoritesVCID", "FriendsVCID"]
     let tabButtonTitles = ["Places", "Favorites", "Friends"]
@@ -22,7 +24,8 @@ class MainScreenViewController: UIViewController, TabButtonViewDelgate {
         super.viewDidLoad()
         insertChildViewControllers()
         insertTabBarButtonViews()
-        
+        profileImageView.image = #imageLiteral(resourceName: "Profile Img_11")
+        userName.text = "Phil Willis"
     }
     
     func insertTabBarButtonViews() {
@@ -64,7 +67,7 @@ class MainScreenViewController: UIViewController, TabButtonViewDelgate {
     // tab button view delegate
     func tabButtonDidPress(view: TabButtonView) {
         var index = 0        
-        UIView.animate(withDuration: 0.4) {
+        UIView.animate(withDuration: 0.4, delay: 0.0, options: .beginFromCurrentState, animations: {
             for tabView in self.tabButtonViews {
                 if (view == tabView) {
                     tabView.set(selected: true)
@@ -75,8 +78,7 @@ class MainScreenViewController: UIViewController, TabButtonViewDelgate {
                 }
                 index = index + 1
             }
-        }
-        
+        }, completion: nil)
     }
     
     

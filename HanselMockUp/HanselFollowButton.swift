@@ -18,12 +18,22 @@ class HanselFollowButton: HanselButton {
         if (toFollowing) {
             self.setTitle("Unfollow", for: .normal)
             self.setTitleColor(followColor, for: .normal)
-            self.layer.borderWidth = 0
+            animateBorderWidth(view: self, from: 1, to: 0, duration: 0.5)
         } else {
             self.setTitle("Follow", for: .normal)
             self.setTitleColor(unfollowColor, for: .normal)
-            self.layer.borderWidth = 1
-        }        
+            animateBorderWidth(view: self, from: 0, to: 1, duration: 0.5)
+        }
+    }
+    
+    func animateBorderWidth(view: UIView, from: CGFloat, to: CGFloat, duration: Double) {
+        let animation:CABasicAnimation = CABasicAnimation(keyPath: "borderWidth")
+        animation.timingFunction = CAMediaTimingFunction(name: kCAMediaTimingFunctionEaseInEaseOut)
+        animation.fromValue = from
+        animation.toValue = to
+        animation.duration = duration
+        view.layer.add(animation, forKey: "Width")
+        view.layer.borderWidth = to
     }
 
     
