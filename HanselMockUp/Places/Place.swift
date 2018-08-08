@@ -10,9 +10,9 @@ import Foundation
 import UIKit
 
 class Place {
-    let cityName: String!
-    var spotsRemaining: Int!
-    let backgroundImage: UIImage!
+    let cityName: String
+    var spotsRemaining: Int
+    let backgroundImage: UIImage
     
     init(cityName: String, spotsRemaining: Int, backgroundImage: UIImage) {
         self.cityName = cityName

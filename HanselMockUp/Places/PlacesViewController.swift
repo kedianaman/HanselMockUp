@@ -29,7 +29,7 @@ class PlacesViewController: UIViewController, UITableViewDataSource, UITableView
         if let cell = placesTableView.dequeueReusableCell(withIdentifier: "PlacesTableViewCellID", for: indexPath) as? PlacesTableViewCell {
             let place = places[indexPath.row]
             cell.backgroundImageView.image = place.backgroundImage
-            cell.spotsRemainingLabel.text = "\(place.spotsRemaining!) spots"
+            cell.spotsRemainingLabel.text = "\(place.spotsRemaining) spots"
             return cell
         }
         return UITableViewCell()

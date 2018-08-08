@@ -64,7 +64,6 @@
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="7xk-hs-pkb" secondAttribute="trailing" id="HOM-m1-c2E"/>
                             <constraint firstItem="7xk-hs-pkb" firstAttribute="top" secondItem="ojC-wM-buh" secondAttribute="bottom" id="J26-pc-Vlu"/>
                             <constraint firstItem="peL-gx-tFX" firstAttribute="top" secondItem="CQA-BF-xIV" secondAttribute="bottom" constant="8" id="Nh6-eU-ZQu"/>
-                            <constraint firstItem="CQA-BF-xIV" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="52" id="SlI-28-DfF"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="7xk-hs-pkb" secondAttribute="bottom" id="TzV-I4-gGG"/>
                             <constraint firstItem="7xk-hs-pkb" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="XAt-Fz-iXr"/>
                             <constraint firstItem="ojC-wM-buh" firstAttribute="top" secondItem="Ix1-59-9Nu" secondAttribute="bottom" id="cKn-fA-B9V"/>
@@ -72,6 +71,7 @@
                             <constraint firstItem="peL-gx-tFX" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="d9N-d6-gPn"/>
                             <constraint firstItem="Ix1-59-9Nu" firstAttribute="top" secondItem="peL-gx-tFX" secondAttribute="bottom" constant="35" id="dMS-dh-Db8"/>
                             <constraint firstItem="peL-gx-tFX" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="hQp-c2-GjH"/>
+                            <constraint firstItem="CQA-BF-xIV" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="32" id="hx7-zq-rDI"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="ojC-wM-buh" secondAttribute="trailing" constant="23.5" id="ivk-aE-QGv"/>
                             <constraint firstItem="ojC-wM-buh" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="kw2-pO-8ki"/>
                             <constraint firstItem="Ix1-59-9Nu" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="npf-Hf-WUF"/>
@@ -263,13 +263,13 @@
                                                     </constraints>
                                                 </imageView>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Person Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tit-rq-IUS">
-                                                    <rect key="frame" x="81" y="13.5" width="104.5" height="22"/>
+                                                    <rect key="frame" x="81" y="13.5" width="187" height="22"/>
                                                     <fontDescription key="fontDescription" name="OpenSans-SemiBold" family="Open Sans" pointSize="16"/>
                                                     <color key="textColor" red="0.1764705882352941" green="0.22745098039215686" blue="0.29411764705882354" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="@account" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5Ra-Bq-0xc">
-                                                    <rect key="frame" x="81" y="35" width="64.5" height="19.5"/>
+                                                    <rect key="frame" x="81" y="35" width="196" height="19.5"/>
                                                     <fontDescription key="fontDescription" name="OpenSans-Regular" family="Open Sans" pointSize="14"/>
                                                     <color key="textColor" red="0.60784313725490191" green="0.60784313725490191" blue="0.60784313725490191" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
@@ -293,7 +293,9 @@
                                                 <constraint firstItem="5Ra-Bq-0xc" firstAttribute="top" secondItem="tit-rq-IUS" secondAttribute="bottom" id="6Ke-r1-CYD"/>
                                                 <constraint firstItem="mvy-tf-Lcm" firstAttribute="centerY" secondItem="cDC-Lh-n4H" secondAttribute="centerY" id="LbC-4J-a2F"/>
                                                 <constraint firstItem="tit-rq-IUS" firstAttribute="leading" secondItem="mvy-tf-Lcm" secondAttribute="trailing" constant="12" id="YLm-tc-3cf"/>
+                                                <constraint firstItem="M7h-qJ-z4W" firstAttribute="leading" secondItem="tit-rq-IUS" secondAttribute="trailing" constant="10" id="cC0-cH-bkU"/>
                                                 <constraint firstItem="tit-rq-IUS" firstAttribute="top" secondItem="mvy-tf-Lcm" secondAttribute="top" constant="2" id="cgR-oY-QAX"/>
+                                                <constraint firstItem="M7h-qJ-z4W" firstAttribute="leading" secondItem="5Ra-Bq-0xc" secondAttribute="trailing" constant="1" id="dBd-YJ-vcN"/>
                                                 <constraint firstItem="5Ra-Bq-0xc" firstAttribute="leading" secondItem="tit-rq-IUS" secondAttribute="leading" id="raa-cO-SY5"/>
                                             </constraints>
                                         </tableViewCellContentView>
