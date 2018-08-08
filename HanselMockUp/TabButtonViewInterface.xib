@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="OpenSans-Regular.ttf">
+            <string>OpenSans-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="TabButtonView" customModule="HanselMockUp" customModuleProvider="target">
+            <connections>
+                <outlet property="contentView" destination="VjZ-Wt-3ED" id="OMh-A9-Rne"/>
+                <outlet property="selectionIndicationView" destination="qE9-9h-h0W" id="0pB-ow-WR2"/>
+                <outlet property="tabButton" destination="f59-bd-uZw" id="iog-RQ-DSS"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" restorationIdentifier="&quot;" id="VjZ-Wt-3ED">
+            <rect key="frame" x="0.0" y="0.0" width="56" height="50"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qE9-9h-h0W">
+                    <rect key="frame" x="23" y="30" width="10" height="10"/>
+                    <color key="backgroundColor" red="0.70980392160000005" green="0.70980392160000005" blue="0.70980392160000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="10" id="Xbe-jr-k73"/>
+                        <constraint firstAttribute="width" constant="10" id="qfk-BX-SqQ"/>
+                    </constraints>
+                </view>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="f59-bd-uZw">
+                    <rect key="frame" x="2.5" y="-4" width="51" height="34"/>
+                    <fontDescription key="fontDescription" name="OpenSans-Regular" family="Open Sans" pointSize="16"/>
+                    <state key="normal" title="Button">
+                        <color key="titleColor" red="0.1843137255" green="0.2274509804" blue="0.2901960784" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="tabButtonPressed:" destination="-1" eventType="touchUpInside" id="SnR-uP-hzF"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="EcP-gH-Jw9" firstAttribute="top" secondItem="f59-bd-uZw" secondAttribute="top" constant="4" id="JPr-Bq-s9I"/>
+                <constraint firstItem="qE9-9h-h0W" firstAttribute="top" secondItem="f59-bd-uZw" secondAttribute="bottom" id="XYY-4J-eEJ"/>
+                <constraint firstItem="qE9-9h-h0W" firstAttribute="centerX" secondItem="EcP-gH-Jw9" secondAttribute="centerX" id="jrx-iy-gwB"/>
+                <constraint firstItem="f59-bd-uZw" firstAttribute="centerX" secondItem="EcP-gH-Jw9" secondAttribute="centerX" id="pJu-yw-eHL"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="EcP-gH-Jw9"/>
+            <point key="canvasLocation" x="-12" y="32"/>
+        </view>
+    </objects>
+</document>

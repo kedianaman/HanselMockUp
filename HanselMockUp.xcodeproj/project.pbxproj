@@ -7,13 +7,34 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		ED1F398E211A1DBE000085E3 /* TabButtonViewInterface.xib in Resources */ = {isa = PBXBuildFile; fileRef = ED1F398D211A1DBE000085E3 /* TabButtonViewInterface.xib */; };
+		ED1F3990211A2336000085E3 /* PlacesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED1F398F211A2336000085E3 /* PlacesViewController.swift */; };
+		ED1F3992211A2484000085E3 /* PlacesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED1F3991211A2484000085E3 /* PlacesTableViewCell.swift */; };
+		ED1F3994211A594C000085E3 /* Place.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED1F3993211A594C000085E3 /* Place.swift */; };
+		ED1F3996211A7FE0000085E3 /* HanselButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED1F3995211A7FE0000085E3 /* HanselButton.swift */; };
 		ED311C1921196D030013F08C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED311C1821196D030013F08C /* AppDelegate.swift */; };
-		ED311C1B21196D030013F08C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED311C1A21196D030013F08C /* ViewController.swift */; };
+		ED311C1B21196D030013F08C /* MainScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED311C1A21196D030013F08C /* MainScreenViewController.swift */; };
 		ED311C1E21196D030013F08C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED311C1C21196D030013F08C /* Main.storyboard */; };
 		ED311C2021196D040013F08C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED311C1F21196D040013F08C /* Assets.xcassets */; };
 		ED311C2321196D040013F08C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED311C2121196D040013F08C /* LaunchScreen.storyboard */; };
 		ED311C2E21196D040013F08C /* HanselMockUpTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED311C2D21196D040013F08C /* HanselMockUpTests.swift */; };
 		ED311C3921196D040013F08C /* HanselMockUpUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED311C3821196D040013F08C /* HanselMockUpUITests.swift */; };
+		ED311C5021196EA10013F08C /* OpenSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = ED311C4C21196E9D0013F08C /* OpenSans-Bold.ttf */; };
+		ED311C5121196EA10013F08C /* OpenSans-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = ED311C4921196E9D0013F08C /* OpenSans-BoldItalic.ttf */; };
+		ED311C5221196EA10013F08C /* OpenSans-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = ED311C4F21196E9E0013F08C /* OpenSans-ExtraBold.ttf */; };
+		ED311C5321196EA10013F08C /* OpenSans-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = ED311C4821196E9D0013F08C /* OpenSans-ExtraBoldItalic.ttf */; };
+		ED311C5421196EA10013F08C /* OpenSans-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = ED311C4A21196E9D0013F08C /* OpenSans-Italic.ttf */; };
+		ED311C5521196EA10013F08C /* OpenSans-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = ED311C4D21196E9E0013F08C /* OpenSans-Light.ttf */; };
+		ED311C5621196EA10013F08C /* OpenSans-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = ED311C4B21196E9D0013F08C /* OpenSans-LightItalic.ttf */; };
+		ED311C5721196EA10013F08C /* OpenSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = ED311C4E21196E9E0013F08C /* OpenSans-Regular.ttf */; };
+		ED311C5821196EA10013F08C /* OpenSans-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = ED311C4721196E9D0013F08C /* OpenSans-SemiBold.ttf */; };
+		ED311C5921196EA10013F08C /* OpenSans-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = ED311C4621196E9D0013F08C /* OpenSans-SemiBoldItalic.ttf */; };
+		ED311C5C21197BCB0013F08C /* TabButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED311C5B21197BCB0013F08C /* TabButtonView.swift */; };
+		ED37DADF211A9091005E4CDD /* FriendsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED37DADE211A9091005E4CDD /* FriendsViewController.swift */; };
+		ED37DAE1211A90CA005E4CDD /* Friend.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED37DAE0211A90CA005E4CDD /* Friend.swift */; };
+		ED6D26CC211A993100A61469 /* FriendTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED6D26CB211A993100A61469 /* FriendTableViewCell.swift */; };
+		ED6D26CE211A9BF000A61469 /* HanselFollowButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED6D26CD211A9BF000A61469 /* HanselFollowButton.swift */; };
+		ED6D26D0211B63F300A61469 /* HanselColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED6D26CF211B63F300A61469 /* HanselColors.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +55,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		ED1F398D211A1DBE000085E3 /* TabButtonViewInterface.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TabButtonViewInterface.xib; sourceTree = "<group>"; };
+		ED1F398F211A2336000085E3 /* PlacesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlacesViewController.swift; sourceTree = "<group>"; };
+		ED1F3991211A2484000085E3 /* PlacesTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlacesTableViewCell.swift; sourceTree = "<group>"; };
+		ED1F3993211A594C000085E3 /* Place.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Place.swift; sourceTree = "<group>"; };
+		ED1F3995211A7FE0000085E3 /* HanselButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HanselButton.swift; sourceTree = "<group>"; };
 		ED311C1521196D030013F08C /* HanselMockUp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HanselMockUp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED311C1821196D030013F08C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		ED311C1A21196D030013F08C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		ED311C1A21196D030013F08C /* MainScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainScreenViewController.swift; sourceTree = "<group>"; };
 		ED311C1D21196D030013F08C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		ED311C1F21196D040013F08C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ED311C2221196D040013F08C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +73,22 @@
 		ED311C3421196D040013F08C /* HanselMockUpUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HanselMockUpUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED311C3821196D040013F08C /* HanselMockUpUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HanselMockUpUITests.swift; sourceTree = "<group>"; };
 		ED311C3A21196D040013F08C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED311C4621196E9D0013F08C /* OpenSans-SemiBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
+		ED311C4721196E9D0013F08C /* OpenSans-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-SemiBold.ttf"; sourceTree = "<group>"; };
+		ED311C4821196E9D0013F08C /* OpenSans-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-ExtraBoldItalic.ttf"; sourceTree = "<group>"; };
+		ED311C4921196E9D0013F08C /* OpenSans-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-BoldItalic.ttf"; sourceTree = "<group>"; };
+		ED311C4A21196E9D0013F08C /* OpenSans-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Italic.ttf"; sourceTree = "<group>"; };
+		ED311C4B21196E9D0013F08C /* OpenSans-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-LightItalic.ttf"; sourceTree = "<group>"; };
+		ED311C4C21196E9D0013F08C /* OpenSans-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Bold.ttf"; sourceTree = "<group>"; };
+		ED311C4D21196E9E0013F08C /* OpenSans-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Light.ttf"; sourceTree = "<group>"; };
+		ED311C4E21196E9E0013F08C /* OpenSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Regular.ttf"; sourceTree = "<group>"; };
+		ED311C4F21196E9E0013F08C /* OpenSans-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-ExtraBold.ttf"; sourceTree = "<group>"; };
+		ED311C5B21197BCB0013F08C /* TabButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabButtonView.swift; sourceTree = "<group>"; };
+		ED37DADE211A9091005E4CDD /* FriendsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsViewController.swift; sourceTree = "<group>"; };
+		ED37DAE0211A90CA005E4CDD /* Friend.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Friend.swift; sourceTree = "<group>"; };
+		ED6D26CB211A993100A61469 /* FriendTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendTableViewCell.swift; sourceTree = "<group>"; };
+		ED6D26CD211A9BF000A61469 /* HanselFollowButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HanselFollowButton.swift; sourceTree = "<group>"; };
+		ED6D26CF211B63F300A61469 /* HanselColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HanselColors.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,11 +140,23 @@
 			isa = PBXGroup;
 			children = (
 				ED311C1821196D030013F08C /* AppDelegate.swift */,
-				ED311C1A21196D030013F08C /* ViewController.swift */,
+				ED311C1A21196D030013F08C /* MainScreenViewController.swift */,
 				ED311C1C21196D030013F08C /* Main.storyboard */,
+				ED1F3991211A2484000085E3 /* PlacesTableViewCell.swift */,
+				ED1F398F211A2336000085E3 /* PlacesViewController.swift */,
+				ED1F3993211A594C000085E3 /* Place.swift */,
+				ED37DADE211A9091005E4CDD /* FriendsViewController.swift */,
+				ED6D26CB211A993100A61469 /* FriendTableViewCell.swift */,
+				ED37DAE0211A90CA005E4CDD /* Friend.swift */,
+				ED1F3995211A7FE0000085E3 /* HanselButton.swift */,
+				ED6D26CD211A9BF000A61469 /* HanselFollowButton.swift */,
+				ED1F398D211A1DBE000085E3 /* TabButtonViewInterface.xib */,
+				ED311C5B21197BCB0013F08C /* TabButtonView.swift */,
+				ED6D26CF211B63F300A61469 /* HanselColors.swift */,
 				ED311C1F21196D040013F08C /* Assets.xcassets */,
 				ED311C2121196D040013F08C /* LaunchScreen.storyboard */,
 				ED311C2421196D040013F08C /* Info.plist */,
+				ED311C5A21196EA60013F08C /* Font */,
 			);
 			path = HanselMockUp;
 			sourceTree = "<group>";
@@ -123,6 +177,23 @@
 				ED311C3A21196D040013F08C /* Info.plist */,
 			);
 			path = HanselMockUpUITests;
+			sourceTree = "<group>";
+		};
+		ED311C5A21196EA60013F08C /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				ED311C4C21196E9D0013F08C /* OpenSans-Bold.ttf */,
+				ED311C4921196E9D0013F08C /* OpenSans-BoldItalic.ttf */,
+				ED311C4F21196E9E0013F08C /* OpenSans-ExtraBold.ttf */,
+				ED311C4821196E9D0013F08C /* OpenSans-ExtraBoldItalic.ttf */,
+				ED311C4A21196E9D0013F08C /* OpenSans-Italic.ttf */,
+				ED311C4D21196E9E0013F08C /* OpenSans-Light.ttf */,
+				ED311C4B21196E9D0013F08C /* OpenSans-LightItalic.ttf */,
+				ED311C4E21196E9E0013F08C /* OpenSans-Regular.ttf */,
+				ED311C4721196E9D0013F08C /* OpenSans-SemiBold.ttf */,
+				ED311C4621196E9D0013F08C /* OpenSans-SemiBoldItalic.ttf */,
+			);
+			path = Font;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -229,9 +300,20 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ED1F398E211A1DBE000085E3 /* TabButtonViewInterface.xib in Resources */,
 				ED311C2321196D040013F08C /* LaunchScreen.storyboard in Resources */,
+				ED311C5721196EA10013F08C /* OpenSans-Regular.ttf in Resources */,
+				ED311C5421196EA10013F08C /* OpenSans-Italic.ttf in Resources */,
+				ED311C5921196EA10013F08C /* OpenSans-SemiBoldItalic.ttf in Resources */,
+				ED311C5321196EA10013F08C /* OpenSans-ExtraBoldItalic.ttf in Resources */,
+				ED311C5821196EA10013F08C /* OpenSans-SemiBold.ttf in Resources */,
 				ED311C2021196D040013F08C /* Assets.xcassets in Resources */,
+				ED311C5621196EA10013F08C /* OpenSans-LightItalic.ttf in Resources */,
+				ED311C5021196EA10013F08C /* OpenSans-Bold.ttf in Resources */,
 				ED311C1E21196D030013F08C /* Main.storyboard in Resources */,
+				ED311C5521196EA10013F08C /* OpenSans-Light.ttf in Resources */,
+				ED311C5121196EA10013F08C /* OpenSans-BoldItalic.ttf in Resources */,
+				ED311C5221196EA10013F08C /* OpenSans-ExtraBold.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,8 +338,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ED311C1B21196D030013F08C /* ViewController.swift in Sources */,
+				ED37DADF211A9091005E4CDD /* FriendsViewController.swift in Sources */,
+				ED1F3992211A2484000085E3 /* PlacesTableViewCell.swift in Sources */,
+				ED1F3990211A2336000085E3 /* PlacesViewController.swift in Sources */,
+				ED6D26CE211A9BF000A61469 /* HanselFollowButton.swift in Sources */,
+				ED1F3996211A7FE0000085E3 /* HanselButton.swift in Sources */,
+				ED311C1B21196D030013F08C /* MainScreenViewController.swift in Sources */,
+				ED1F3994211A594C000085E3 /* Place.swift in Sources */,
+				ED37DAE1211A90CA005E4CDD /* Friend.swift in Sources */,
+				ED6D26CC211A993100A61469 /* FriendTableViewCell.swift in Sources */,
 				ED311C1921196D030013F08C /* AppDelegate.swift in Sources */,
+				ED6D26D0211B63F300A61469 /* HanselColors.swift in Sources */,
+				ED311C5C21197BCB0013F08C /* TabButtonView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
